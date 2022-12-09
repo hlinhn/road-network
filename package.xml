@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>road_network</name>
+  <version>0.1.0</version>
+  <description>
+    Generate simple road network from edge image
+  </description>
+
+  <author email="linh.nguyen@enway.ai">Linh Nguyen</author>
+  <maintainer email="linh.nguyen@enway.ai">Linh Nguyen</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>libopencv-dev</depend>
+  <depend>nav_msgs</depend>
+  <depend>pcl_conversions</depend>
+  <depend>pcl_ros</depend>
+  <depend>roscpp</depend>
+</package>

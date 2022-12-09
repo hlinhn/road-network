@@ -1,0 +1,36 @@
+image_path: "/home/linh/Downloads/bags/cleantech/grid_map_drivable.png"
+bag_path: "/home/linh/.ros/maps/convert_from_trajectory.bag"
+inner_image_path: "/home/linh/inner_region.png"
+original_resolution: 0.1
+resize_ratio: 0.4
+topic_name: "/global_odom"
+skip_distance: 0.3
+candidate_region_size: 20
+octree_resolution: 128
+edge_threshold: 2550
+save_folder: "/home/linh"
+
+print_debug: true
+save_inner_region: true
+save_inner_region_original: true
+
+blur_kernel: 3
+laplacian_kernel: 3
+laplacian_scale: 1
+laplacian_delta: 0
+
+disc_min_radius: 3.0
+fudge_factor: 0.5
+size_fudge_factor: 0.6
+same_size_factor: 0.1
+
+save_covered_image: false
+max_neighbors: 10
+fudge_intersect_factor: 1.1
+cosine_threshold: 0.95
+
+save_proposed_edge_image: false
+save_graph_path: "/home/linh/network-graph.yaml"
+
+mark_inner_region: false
+generate_graph: true
