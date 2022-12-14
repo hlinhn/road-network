@@ -3,8 +3,8 @@
 This package generates simple road network from edge image
 
 What it does:
-- classify inner and outer region of the road (useful for drivable map generation)
-- cover the inner region with discs and generate route graph (Reference: Reconstructing Road Network Graphs from both Aerial Lidar and Images)
+- classify inner and outer region of the road (useful for drivable map generation) (enabled with `mark_inner_region` in the config file)
+- cover the inner region with discs and generate route graph (Reference: Reconstructing Road Network Graphs from both Aerial Lidar and Images) (enabled with `generate_graph` in the config file)
 
 The route graph is still very simple (not directed, not free of cycles)
 
